@@ -1,19 +1,17 @@
 ## Design Database cơ bản
 
--   Hai table blog và categories
+<img alt="Design Database" src="./database.png"/>
 
--   Nội dung content là mảng có các key : content , image , video ,...
-
-    Table blogs{
-    int id
-    title varchar
-    content array
-    author varchar
-    image varchar
-    path varchar
-    created_at timestamp
-    updated_at timestamp
-    }
+Table blogs{
+int id
+title varchar
+content array
+author varchar
+image varchar
+path varchar
+created_at timestamp
+updated_at timestamp
+}
 
 Table blogCategories{
 int id
